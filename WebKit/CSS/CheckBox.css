@@ -1,0 +1,40 @@
+.checkbox
+{
+    text-align: left top;
+    line-height: 30px;
+    visibility: visible;
+    font-size: 25px;
+}
+.checkbox div
+{
+    line-height: 30px;
+    height:30px;
+    width: 30px;
+    text-align: center;
+    background-color: lightgray;
+    border-width: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    float: left;
+    
+}
+
+.checkbox input
+{
+    display: none;
+    width: 30px;
+    height:30px;
+}
+
+.checkbox input[type=checkbox] + label:before
+{
+   content: "\2714";
+    border:0.1em solid #000;
+}
+.checkbox input[type=checkbox]:checked + label
+{
+   content: "\2714";
+    border:0.1em solid #000;
+}
+
+

@@ -1,0 +1,9 @@
+.label
+{
+    width: 150;
+    line-height: 20px;
+    text-align:center;
+    background-color: darkgray;
+    cursor: default;
+    border-radius: 3px;
+}

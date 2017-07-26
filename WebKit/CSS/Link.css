@@ -1,0 +1,16 @@
+.link
+{
+    color:cornflowerblue;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px gray;
+    -webkit-transition: all 0.2s;
+    cursor: pointer;
+}
+.link:hover
+{
+    color:blue;
+}
+.link:active
+{
+    color:darkblue;
+}

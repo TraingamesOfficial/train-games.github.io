@@ -1,0 +1,34 @@
+.menu
+{
+    line-height: 42px;
+    height:42px;
+    background-color: dodgerblue;
+    text-align: center;
+    border-radius: 1px;
+    list-style: none;
+    align-items: center;
+    vertical-align:middle;
+    height:42px;
+}
+.menuitem
+{
+    width: 100px;
+    height:41px;
+    background-color: dodgerblue;
+    text-decoration: none;
+    padding: 0px;
+    float: left;
+    -webkit-transition:all 0.5s;
+}
+.menuitem a
+{
+    color:white;
+    text-shadow: 1px 1px 1px gray;
+    font-family:serif;
+    font-size: 18px;
+}
+.menuitem:hover
+{
+    background-color: aqua;
+    border-radius: 5px;
+}
