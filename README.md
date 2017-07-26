@@ -1,2 +1,2 @@
-# http://train-games.github.io
+# https://github.com/TraingamesOfficial/train-games.github.io
 traingames official website
